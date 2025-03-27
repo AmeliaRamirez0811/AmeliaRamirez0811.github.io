@@ -65,13 +65,16 @@ small {
 }
 
 .first{
-  background-image: url(https://dominicantoday.com/wp-content/uploads/2024/10/Majarete.png);
+  background-image: url(https://i.ytimg.com/vi/nSHPeJTlW2I/sddefault.jpg);
 }
 .second{
-  background-image: url(https://www.goya.com/media/3682/habichuelas-con-dulce-sweet-dominican-beans.jpg?quality=80);
+  background-image: url(https://www.goya.com/wp-content/uploads/2023/10/habichuelas-con-dulce-sweet-dominican-beans.jpg);
 }
 .dessert{
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjDoOwt-jjXppgMMF2q2-ZRpkNmcJECzcEYw&s);
+  background-image: url(https://i.ytimg.com/vi/1EJwZj0DD2w/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBrjr6kSJ0yape2rtOL5bqVqqPnLw);
+}
+.fourth{
+  background-image: url(https://www.cocinadominicana.com/wp-content/uploads/2007/02/flan-spanish-creme-caramel-CG14625htl.jpg);
 }
 .price {
   float: right;
@@ -119,12 +122,12 @@ small {
   
 <div class="dessert">
   <input class="quantities" type="number" min="0" style="width: 50px"><p>Bizcocho borracho <span class="price">$10</span><br />
-  <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
+  <small>This cake is a spongy cake made without butter, moistened with a syrup of sugar, water, red food coloring and red wine or rum.</small></p>
 </div>
 
 <div class="fourth">
   <input class="quantities" type="number" min="0" style="width: 50px"><p>.Flan de leche <span class="price">$5 </span><br />
-  <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
+  <small>Flan is a sweet custard made with milk and egg, usually flavored with vanilla. It has a characteristic caramel color on top and in the sauce, as it is baked in a mold with a bottom covered in hard caramel that dissolves during the baking process.</small></p>
 </div>
 
   <br><br>
@@ -170,7 +173,7 @@ small {
        const Email = document.querySelector("#Email")
        document.querySelector('#submit').addEventListener('click', Submit)
        const quantities = document.querySelectorAll(".quantities")
-       const itemsList = ["Majarete", "Habichuelas con dulce", "Bizcocho borracho"]
+       const itemsList = ["Majarete", "Habichuelas con dulce", "Bizcocho borracho", "Flan de leche"]
        const prices = document.querySelectorAll(".price") 
   
    function Submit() {
